@@ -266,7 +266,7 @@ func (r *FetchRequest) requiredVersion() KafkaVersion {
 	case 11:
 		return V2_3_0_0
 	default:
-		return MaxVersion
+		return MinVersion
 	}
 }
 
